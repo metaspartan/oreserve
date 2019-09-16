@@ -1,0 +1,2 @@
+<p>You are receiving this e-mail because your account has initiated an e-mail address change. If you did not request this, please disregard this e-mail.</p>
+<p>To confirm your new e-mail (<?php echo $new_email; ?>), please visit this URL: <a href="http://<?php echo $_SERVER['HTTP_HOST'] . $config['root']; ?>/change_email/<?php echo $new_hash; ?>/">http://<?php echo $_SERVER['HTTP_HOST'] . $config['root']; ?>/change_email/<?php echo $new_hash; ?>/</a></p>

@@ -1,0 +1,303 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 20px 0px;
+	background-color: #ebebeb;
+	background-image: url(../img/bg.png);
+	background-repeat: repeat-x;
+}
+#wrapper {
+	width: 920px;
+	margin: 0px auto;
+}
+#header {
+	padding: 0px 0px 44px 0px;
+	position: relative;
+}	
+#logo {
+	background:url(../img/logo.png) no-repeat;
+	height:74px;
+	width:188px;
+}
+
+#landingheader {
+	background:url(../img/header.png) no-repeat;
+	height: 429px;
+	width: 845px;
+	margin: 0 auto;
+}
+
+.content {
+   background: #ffffff;
+   margin-top: 10px;
+}
+.content_top div {
+   background: url(../img/roundedcornr_630983_tl.png) no-repeat top left;
+}
+.content_top {
+   background: url(../img/roundedcornr_630983_tr.png) no-repeat top right;
+}
+.content_bottom div {
+   background: url(../img/roundedcornr_630983_bl.png) no-repeat bottom left;
+}
+.content_bottom {
+   background: url(../img/roundedcornr_630983_br.png) no-repeat bottom right;
+}
+.content_top div, .content_top, 
+.content_bottom div, .content_bottom {
+   width: 100%;
+   height: 10px;
+   font-size: 1px;
+}
+.content_content { 
+	margin: 0 10px;
+	padding: 15px 15px 15px 15px;
+}
+
+
+	#header ul {
+		font-size: 1.3em;
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		position: absolute;
+		right: 0px;
+		bottom: 10px;
+	}
+		#header ul li {
+			display: inline-block;
+			float: left;
+			margin: 0px 0px 0px 5px;
+		}
+			#header ul li a {
+				font-weight: bold;
+				color: #fff;
+				text-decoration: none;
+				background: #f7941d;
+				display: inline-block;
+				padding: 2px 5px;
+				outline: none;
+			}
+			#header ul li a:hover { background: #f26c4f; }
+			#header ul li a.red { background: #ed1c24; }
+			
+#footer {
+	background-color: #000000;
+	background-image: url(../img/footer-repeat.jpg) repeat-x;
+	clear: both;
+	color: #FFFFFF;
+	width: auto;	
+	height: 75px;
+}
+#footer p {
+	color: #767676;
+	padding: 23px 0px 0px 0px;
+	font-family: Tahoma;
+	text-align: center;
+	font-size: 13px;
+}
+#footer p a:link, a:visited {
+	color: #767676;
+	text-decoration: underline;
+}
+#footer p a:hover, a:active {
+	color: #eeeeee;
+	text-decoration: none;
+}
+#main {
+	margin: 20px 0px 0px 0px;
+}
+	#main h2 {
+		font-size: 1.8em;
+		margin: 0px 0px 20px 0px;
+	}
+	#main p {
+		font-size: 1.2em;
+		margin: 0px;
+	}
+		#main p a { color: #f7941d; }
+	#main p.plain { margin: 0px 0px 15px 0px; }
+	#main p.details {
+		font-size: 1.4em;
+		line-height: 1.8em;
+		margin: 0px 0px 15px 0px;
+	}
+#login {
+	width: 50%;
+	float: left;
+	padding-top: 5px;
+}
+#login2 {
+	width: 402px;
+	float: right;
+}
+#register {
+	width: 100%;
+}
+#account {
+	
+}
+	#account .overview {
+		width: 400px;
+		margin: 0px 0px 30px 0px;
+		border: 1px solid #bfebfb;
+		border-bottom: 0px;
+		float: left;
+	}
+		#account .overview .item {
+			border-bottom: 1px solid #bfebfb;
+			overflow: hidden;
+		}
+			#account .overview .item strong {
+				font-size: 1.2em;
+				display: inline-block;
+				float: left;
+				width: 200px;
+				padding: 5px;
+				border-right: 1px solid #bfebfb;
+			}
+			#account .overview .item span {
+				font-size: 1.4em;
+				color: #666;
+				text-align: right;
+				display: block;
+				padding: 5px;
+			}
+			#account .overview .item span.green {
+				font-weight: bold;
+				font-size: 14px;
+				color: #000000;
+			}
+		#account .overview2 {
+		width: 400px;
+		margin: 0px 0px 30px 0px;
+		border: 1px solid #bfebfb;
+		border-bottom: 0px;
+		float: right;
+	}
+		#account .overview2 .item {
+			border-bottom: 1px solid #bfebfb;
+			overflow: hidden;
+		}
+			#account .overview2 .item strong {
+				font-size: 1.2em;
+				display: inline-block;
+				float: left;
+				width: 200px;
+				padding: 5px;
+				border-right: 1px solid #bfebfb;
+			}
+			#account .overview2 .item span {
+				font-size: 1.4em;
+				color: #666;
+				text-align: right;
+				display: block;
+				padding: 5px;
+			}
+			#account .overview2 .item span.green {
+				font-weight: bold;
+				color: #39b54a;
+			}
+.clear {
+   height: 0;
+   font-size: 1px;
+   margin: 0;
+   padding: 0;
+   line-height: 0;
+   clear: both;
+}
+
+form {
+	margin: 0px;
+}
+	form .field {
+		background: #f2f2f2;
+		overflow: hidden;
+		padding: 15px 10px;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #fff;
+	}
+		form .field .left {
+			float: left;
+			max-width: 200px;
+		}
+			form .field .left label {
+				font-size: 1.4em;
+				font-weight: bold;
+				color: #454545;
+			}
+			form .field .left p {
+				font-size: 1.2em;
+				font-style: italic;
+				color: #777;
+				margin: 5px 0px 0px 0px;
+			}
+		form .field .right {
+			float: right;
+		}
+			form .field .right input, form .field .right textarea {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 1.2em;
+				padding: 1px 1px 1px 2px;
+			}
+	form .button {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		margin: 10px 0px 0px 0px;
+		padding: 10px 10px;
+		cursor: pointer;
+	}
+	form .errors {
+		font-size: 1.2em;
+		color: #ed1c24;
+		margin: 0px 0px 10px 0px;
+		padding: 0px 0px 0px 15px;
+	}
+		form .errors li { margin: 0px 0px 5px 0px; }
+
+.transactions {
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ddd;
+}
+	.transactions .head {
+		font-size: 1.2em;
+		font-weight: bold;
+		background: #eee;
+	}
+		.transactions .head td {
+			padding: 5px;
+		}
+		.transactions .head td a:link, a:visited {
+			text-decoration: underline;
+		}
+		.transactions .head td a:hover, a:active{
+			text-decoration: none;
+		}
+	.transactions .item {
+		font-size: 1.2em;
+		background: #fff;
+		border-top: 1px solid #ddd;
+	}
+		.transactions .item td {
+			padding: 5px;
+		}
+.pagination {
+	font-size: 1.2em;
+}
+	.pagination span {
+		float: left;
+		padding: 4px 5px;
+	}
+	.pagination a {
+		font-weight: bold;
+		color: #444;
+		text-decoration: none;
+		float: left;
+		margin: 0px 0px 0px 10px;
+		padding: 4px 5px;
+	}
+	.pagination a.active {
+		color: #000;
+		background: #eee;
+	}

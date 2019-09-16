@@ -1,0 +1,3 @@
+<p>Thank you for registering at oReserve.com, <strong><?php echo $user_fullname; ?></strong>.</p>
+<p>Please activate your account below to use your oReserve account.</p>
+<p>To activate your account, please visit this URL: <a href="http://<?php echo $_SERVER['HTTP_HOST'] . $config['root']; ?>/activate/<?php echo $user_hash; ?>/">http://<?php echo $_SERVER['HTTP_HOST'] . $config['root']; ?>/activate/<?php echo $user_hash; ?>/</a></p>

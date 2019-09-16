@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteRule ^login/?$ login.php
+RewriteRule ^register/?$ register.php
+RewriteRule ^forgot-password/?$ forgot-password.php
+RewriteRule ^new-password/([a-z0-9]{32,32})/?$ new-password.php?hash=$1
+RewriteRule ^terms/?$ terms.php
+RewriteRule ^exchange/?$ exchange.php
+RewriteRule ^faq/?$ faq.php
+RewriteRule ^policy/?$ policy.php
+RewriteRule ^activate/([a-z0-9]{32,32})/?$ activate.php?hash=$1
+RewriteRule ^logout/?$ logout.php
+RewriteRule ^account/?$ account.php
+RewriteRule ^send-money/?$ send-money.php
+RewriteRule ^history/?$ history.php
+RewriteRule ^history/([0-9]+)/?$ history.php?page=$1
+RewriteRule ^profile/?$ profile.php
+RewriteRule ^change_email/([a-z0-9]{32,32})/?$ change_email.php?hash=$1
+
+RewriteRule ^admin/?$ admin.php
+RewriteRule ^admin/([0-9]+)/?$ admin.php?page=$1&%{QUERY_STRING}
+RewriteRule ^admin/(view|edit|delete|ban)/([0-9]+)/?$ admin.php?action=$1&user=$2
